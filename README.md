@@ -50,7 +50,7 @@ var sassFunctions = _.merge(chromatic, myFunction);
 
 Utilize Chromatic functions in your stylesheets as you would any other Sass function:
 
-```Sass
+```scss
 .element {
   background-image: chromatic-gradient(to right, blue, red);
 }
